@@ -1,0 +1,17 @@
+{
+  "name": "@test-evals/llm",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.92.0",
+    "ajv": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/bun": "catalog:",
+    "typescript": "catalog:"
+  }
+}
